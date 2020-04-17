@@ -42,17 +42,17 @@ No known bugs
   * Example Input: 30
   * Example Output: 2.52
 
-* The program returns different price based on user pizza topping selection(s).
-  * Example Input: Pepperoni, Olive, Jalapeno
-  * Example Output: + $3
+* The program will return user life expectancy based on planet choice age demo (Age;1-30, 30-60, 60-100 Expect:80, 75, 70).
+  * Example Input: Mercury (30)
+  * Example Output: 125 "You've surpassed your life expectancy by 55 years!
 
-* The program will combine user size and topping input and return final cost.
-  * Example Input: Large w/ Pepperoni, Olive, Jalapeno
-  * Example Output: $16 + $3 = $19
+*  
+  * 
+  * 
 
-* The program will display pizza total cost back to user.
-  * Example Input: Large w/ Pepperoni, Olive, Jalapeno = $19
-  * Example Output: "You're total will be $19, Thank You!"
+* 
+  * 
+  * 
 
 ## Support and contact details
 
