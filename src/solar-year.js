@@ -39,5 +39,8 @@ export class Venus extends Planet {
 }
 
 export class Mars extends Planet {
-
+  constructor() {
+    super()
+    this.yearRatio = 1.88;
+  }
 }

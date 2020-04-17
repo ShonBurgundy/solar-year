@@ -1,4 +1,4 @@
-import { Planet, Mercury, Venus } from './../src/solar-year';
+import { Planet, Mercury, Venus, Mars } from './../src/solar-year';
 
 //Planet
 describe('Planet and its prototypes', () => {
@@ -52,14 +52,14 @@ describe('Mercury and its prototypes', () => {
 describe('Mars and its prototypes', () => {
 
   test ('should return remaining years of users life expectancy according to age', () => {
-    expect(new Mars().lifeGenerator(6)).toEqual(61)  
+    expect(new Mars().lifeGenerator(6)).toEqual(37)  
   });
 
   test ('should check if user age is divided by 1.88 & round to nearest integer', () => {
-    expect(new Mars().fromEarthYears(31)).toEqual(50)
+    expect(new Mars().fromEarthYears(31)).toEqual(16)
   });
 
   test ('should check if user age is multiplied by 1.88 & round to nearest integer', () => {
-    expect(new Mars().toEarthYears(31)).toEqual(19)
+    expect(new Mars().toEarthYears(31)).toEqual(58)
   });
 });
