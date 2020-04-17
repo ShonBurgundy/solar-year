@@ -23,23 +23,23 @@ No Front End
 
 ## Specs
 
-* The program will return user age divided by .24 for Mercury selection.
+* The program will return user age divided by .24 for Mercury selection rounded to the nearest integer.
   * Example Input: 30
   * Example Output: 125
 
-* The program will return user age divided by .62 for Venus selection.
+* The program will return user age divided by .62 for Venus selection rounded to the nearest integer.
   * Example Input: 30
-  * Example Output: 48.38
+  * Example Output: 48
 
-* The program will return user age divided by 1.88 for Mars selection.
+* The program will return user age divided by 1.88 for Mars selection rounded to the nearest integer.
   * Example Input: 30
-  * Example Output: 15.95
+  * Example Output: 16
 
-* The program will return user age divided by 11.86 for Jupiter selection.
+* The program will return user age divided by 11.86 for Jupiter selection rounded to the nearest integer.
   * Example Input: 30
-  * Example Output: 2.52
+  * Example Output: 3
 
-* The program will return user life expectancy based on planet choice age demo (Age;1-30, 30-60, 60-100 Expect:80, 75, 70).
+* The program will return user life expectancy based on planet choice & age demo (Age:1-30, 30-60, 60-100 Expect:80, 75, 70).
   * Example Input: Mercury (30)
   * Example Output: 125 
 
