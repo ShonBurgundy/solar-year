@@ -1,6 +1,6 @@
 export class Mercury {
   constructor(userAge, lifeExpect) {
-    this.age = userAge;
+    this.userAge = userAge;
     this.lifeExpect = lifeExpect;
   }
 
