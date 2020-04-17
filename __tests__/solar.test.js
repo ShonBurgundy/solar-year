@@ -3,7 +3,7 @@ import { Mercury } from './../src/solar-year';
 describe('Mercury and its prototypes', () => {
 
   test ('should check if user age is divided by .24 & round to nearest integer', () => {
-    let userAge = 30;
+    let userAge = 31;
     userAge = Math.round(userAge / .24)
   expect(userAge).toEqual(5000)  
   });
