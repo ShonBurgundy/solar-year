@@ -76,6 +76,6 @@ describe('Jupiter and its prototypes', () => {
   });
 
   test ('should check if user age is multiplied by 1.88 & round to nearest integer', () => {
-  expect(new Jupiter().toEarthYears(31)).toEqual(368)
+    expect(new Jupiter().toEarthYears(31)).toEqual(368)
   });
 });
