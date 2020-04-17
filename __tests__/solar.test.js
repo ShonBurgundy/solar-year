@@ -52,7 +52,7 @@ describe('Mercury and its prototypes', () => {
 describe('Mars and its prototypes', () => {
 
   test ('should return remaining years of users life expectancy according to age', () => {
-    expect(new Mars().lifeGenerator(60)).toEqual(61)  
+    expect(new Mars().lifeGenerator(6)).toEqual(61)  
   });
 
   test ('should check if user age is divided by 1.88 & round to nearest integer', () => {
