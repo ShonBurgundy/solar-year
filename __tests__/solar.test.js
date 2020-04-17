@@ -8,9 +8,9 @@ describe('Mercury and its prototypes', () => {
   expect(userAge).toEqual(5000)  
   });
   
-//   test ('should check if user age is divided by .24', () => {
-//     let userAge = 30;
-//     userAge /= .24
-//   expect(userAge).toEqual(125)  
-//   });
+  test ('should check if user age is divided by .24', () => {
+    let userAge = 30;
+    userAge /= .24
+  expect(userAge).toEqual(125)  
+  });
 });
