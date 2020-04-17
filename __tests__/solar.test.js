@@ -1,6 +1,6 @@
 import { Planet, Mercury, Venus, Mars, Jupiter } from './../src/solar-year';
 
-//Planet
+//Planet aka Earth
 describe('Planet and its prototypes', () => {
 
   test ('should check if user age is divided by 1 & round to nearest integer', () => {
