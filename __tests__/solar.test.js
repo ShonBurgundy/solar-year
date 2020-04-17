@@ -5,14 +5,14 @@ describe('Mercury and its prototypes', () => {
   test ('should check if user age is divided by .24 & round to nearest integer', () => {
     let userAge = 31;
     userAge = Math.round(userAge / .24)
-  expect(userAge).toEqual(5000)  
+    expect(userAge).toEqual(5000)  
   });
   
-  // test ('should check if user age is divided by .24 & round to nearest integer', () => {
-  //   let userAge = 30;
-  //   userAge /= .24
-  //   expect(userAge).toEqual(125)  
-  // });
+  test ('should check if user age is divided by .24 & round to nearest integer', () => {
+    let userAge = 30;
+    userAge = Math.round(userAge /= .24)
+    expect(userAge).toEqual(129)  
+  });
 
   //  test ('should round user age to nearest integer', () => {
   //   let userAge = 31;
