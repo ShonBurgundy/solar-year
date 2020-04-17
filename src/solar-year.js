@@ -1,6 +1,5 @@
 export class Planet {
-  constructor(lifeExpect) {
-    this.lifeExpect = lifeExpect;
+  constructor() {
     this.yearRatio = 1;
   }
 
@@ -26,15 +25,15 @@ export class Planet {
 };
 
 export class Mercury extends Planet {
-  constructor(lifeExpect) {
-    super(lifeExpect)
+  constructor() {
+    super()
     this.yearRatio = .24;
   }
 }
 
 export class Venus extends Planet {
-  constructor(lifeExpect) {
-    super(lifeExpect)
+  constructor() {
+    super()
     this.yearRatio = .62;
   }
 }
