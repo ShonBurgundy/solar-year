@@ -4,25 +4,22 @@ By _Sean VanLeeuwen_ 04.17.20
 
 ## Description
 
-* This solar year age calculator returns user inputted age in "solar years", determines the years they have left to live and inform user if they have already surpassed life expectancy according to the planet of their choice. according to the planet of their choice.
+* This solar year age calculator returns user inputted age in "solar years", determines the years they have left to live and inform user if they have already surpassed life expectancy according to the planet of their choice.
 
 ## Setup
 
-* 
+* In the terminal, type 'git clone https://github.com/ShonBurgundy/solar-year'
 
-* 
+* Enter the directory, with 'cd solar-year'
 
-* 
+* On the command line type 'npm test'
 
-* 
+* This currently has no front end
 
 ## Known Bugs
 
-No known bugs
+No Front End
 
-## GitHub Pages
-
-* 
 
 ## Specs
 
@@ -44,15 +41,8 @@ No known bugs
 
 * The program will return user life expectancy based on planet choice age demo (Age;1-30, 30-60, 60-100 Expect:80, 75, 70).
   * Example Input: Mercury (30)
-  * Example Output: 125 "You've surpassed your life expectancy by 55 years!
+  * Example Output: 125 
 
-*  
-  * 
-  * 
-
-* 
-  * 
-  * 
 
 ## Support and contact details
 
@@ -61,7 +51,7 @@ No known bugs
 
 ## Technologies Used
 
-HTML, CSS, Bootstrap, Javascript, JQuery, Git, Node, Babel, Eslint, Jest
+Javascript, JQuery, Git, Node, Babel, Eslint, Jest
 
 ## Legal
 
