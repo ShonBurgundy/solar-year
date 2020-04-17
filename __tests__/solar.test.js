@@ -28,7 +28,7 @@ describe('Mercury and its prototypes', () => {
   });
 
   test ('should check if user age is multiplied by .24 & round to nearest integer', () => {
-    expect(new Mercury().toEarthYears(129)).toEqual(129)
+    expect(new Mercury().toEarthYears(129)).toEqual(31)
   });
 });
 
@@ -40,7 +40,7 @@ describe('Mercury and its prototypes', () => {
   });
 
   test ('should check if user age is divided by .62 & round to nearest integer', () => {
-    expect(new Venus().fromEarthYears(31)).toEqual(129)
+    expect(new Venus().fromEarthYears(31)).toEqual(50)
   });
 
   test ('should check if user age is multiplied by .62 & round to nearest integer', () => {
