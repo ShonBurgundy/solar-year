@@ -4,7 +4,13 @@ export class Mercury {
     this.lifeExpect = lifeExpect;
   }
 
-  ageGenerator() {
+  ageGenerator(userAge) {
+    return Math.round(userAge/ .24)
+  }
 
+  lifeGenerator() {
+    //if (userAge < 30) {
+    //return userAge % 80
+    //}
   }
 };
