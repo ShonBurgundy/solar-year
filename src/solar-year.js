@@ -4,18 +4,24 @@ export class Planet {
     this.yearRatio = 1;
   }
 
-  ageGenerator(userAge) {
+  fromEarthYears(userAge) {
     return Math.round(userAge/ this.yearRatio);
   }
 
-  lifeGenerator(userAge) {
-    if (userAge < 30) {
-    return 80 - userAge;
-    } else if (userAge < 60) {
-      return 75 - userAge;
+  toEarthYears(userAge) {
+    return Math.round(userAge * this.yearRatio)
+  }
+
+  lifeGenerator(userAgeInPlanetYears) {
+    let earthYears = this.toEarthYears(userAgeInPlanetYears)
+    if (earthYears <= 30) {
+      earthYears = 80 - earthYears;
+    } else if (earthYears <= 60) {
+      earthYears =  75 - earthYears;
     } else {
-      return 70 - userAge;
+      earthYears = 70 - earthYears;
     }
+    return this.fromEarthYears(earthYears)
   }
 };
 
