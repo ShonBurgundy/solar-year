@@ -68,14 +68,14 @@ describe('Mars and its prototypes', () => {
 describe('Jupiter and its prototypes', () => {
 
   test ('should return remaining years of users life expectancy according to age', () => {
-    expect(new Jupiter().lifeGenerator(6)).toEqual(37)  
+    expect(new Jupiter().lifeGenerator(30)).toEqual(-24)  
   });
 
   test ('should check if user age is divided by 1.88 & round to nearest integer', () => {
-    expect(new Jupiter().fromEarthYears(31)).toEqual(16)
+    expect(new Jupiter().fromEarthYears(31)).toEqual(3)
   });
 
   test ('should check if user age is multiplied by 1.88 & round to nearest integer', () => {
-    expect(new Jupiter().toEarthYears(31)).toEqual(58)
+  expect(new Jupiter().toEarthYears(31)).toEqual(368)
   });
 });
