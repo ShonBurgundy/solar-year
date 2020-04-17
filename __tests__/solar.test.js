@@ -48,7 +48,7 @@ describe('Mercury and its prototypes', () => {
   });
 });
 
-//Mars
+//Mars..
 describe('Mars and its prototypes', () => {
 
   test ('should return remaining years of users life expectancy according to age', () => {
