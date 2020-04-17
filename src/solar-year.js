@@ -3,12 +3,12 @@ export class Planet {
     this.yearRatio = 1;
   }
 
-  fromEarthYears(userAge) {
-    return Math.round(userAge/ this.yearRatio);
+  fromEarthYears(userAgeInPlanetYears) {
+    return Math.round(userAgeInPlanetYears/ this.yearRatio);
   }
 
-  toEarthYears(userAge) {
-    return Math.round(userAge * this.yearRatio)
+  toEarthYears(userAgeInPlanetYears) {
+    return Math.round(userAgeInPlanetYears * this.yearRatio)
   }
 
   lifeGenerator(userAgeInPlanetYears) {
@@ -43,4 +43,7 @@ export class Mars extends Planet {
     super()
     this.yearRatio = 1.88;
   }
+}
+
+export class Jupiter extends Planet {
 }
